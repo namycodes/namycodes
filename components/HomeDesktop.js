@@ -104,13 +104,12 @@ export default function Home() {
                       My works
                     </Button>
                   </Stack>
-                  
                 </Container>
               </VStack>
             </Box>
           </GridItem>
 
-          <GridItem colSpan={2}> 
+          <GridItem colSpan={2}>
             <Box
               p="30px"
               borderTopLeftRadius="10rem"
@@ -122,10 +121,19 @@ export default function Home() {
 
               <Container mt="10px">
                 <HStack>
-                 <Link href='github.com'> <IconButton bg="white" shadow="md" icon={<ImGithub />} /></Link>
-                  <IconButton bg="white" shadow="md" icon={<ImInstagram />} />
-                  <IconButton bg="white" shadow="md" icon={<ImYahoo2 />} />
-                  <IconButton bg="white" shadow="md" icon={<ImLinkedin />} />
+                  <Link href="https://www.github.com/namycodes">
+                    {" "}
+                    <IconButton bg="white" shadow="md" icon={<ImGithub />} />
+                  </Link>
+                  <Link href="https://www.instagram.com/invites/contact/?i=1e8e53im3polc&utm_content=34axmit">
+                    <IconButton bg="white" shadow="md" icon={<ImInstagram />} />
+                  </Link>
+                  <Link>
+                    <IconButton bg="white" shadow="md" icon={<ImYahoo2 />} />
+                  </Link>
+                  <Link href="https://zm.linkedin.com/in/namy-codes-269318246">
+                    <IconButton bg="white" shadow="md" icon={<ImLinkedin />} />
+                  </Link>
                 </HStack>
               </Container>
             </Box>
