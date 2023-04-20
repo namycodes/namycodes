@@ -1,0 +1,10 @@
+.img{
+    background-image: url('../public/img/keyboard.jpg');
+    background-position: fixed;
+}
+.hero{
+    background-image: url('../public/img/hero.svg');
+    background-position: fixed;
+    margin: 0;
+    padding:0;
+}

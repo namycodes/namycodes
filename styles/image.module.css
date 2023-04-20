@@ -1,0 +1,72 @@
+.img{
+    
+    height: 11rem;
+    border-top: 2rem;
+    
+}
+
+.img:hover{
+    opacity: 0.5;
+    content: 'hello'
+}
+
+.link{
+    color: blue;
+
+}
+
+.link:hover{
+  transform: scale(2px);
+  color: lightseagreen;
+}
+
+.link:visited{
+    color: crimson
+}
+
+.namy{
+    height: 3rem;
+    width: 3rem;
+    border-top-right-radius: 7rem;
+    border-top-left-radius: 7rem;
+    border-bottom-left-radius: 7rem;
+    border-bottom-right-radius: 7rem;
+    
+    
+}
+
+.mobile{
+    height: 8rem;
+    width: 8rem;
+    
+}
+
+.scale{
+    transform: skew(12rem);
+    background: blur(1px);
+    border-top-right-radius: 0rem;
+    border-top-left-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+    color: #f7d;
+    border-bottom-right-radius: 0rem;
+}
+
+
+/* 
+@media only screen and (min-width: 768px){
+    .namy{
+    position: relative;
+    right: 16rem;
+    top: 8rem;
+    
+}
+}
+
+@media only screen and (min-width: 1024px){
+    .namy{
+    position: relative;
+    right: 20rem;
+    top: 3.5rem;
+    
+}
+} */
