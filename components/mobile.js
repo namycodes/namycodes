@@ -21,7 +21,7 @@ import { useRef } from "react";
 import container from "styles/Mobile.module.css";
 import Image from 'next/image'
 import namy from 'styles/image.module.css'
-import Link from 'next/link'
+
 export default function MobileView() {
   const btnStyle = {
     
@@ -51,19 +51,10 @@ export default function MobileView() {
       >
         <Container mt="10px">
           <HStack>
-            <Link href="https://www.github.com/namycodes">
-              {" "}
-              <IconButton bg="white" shadow="md" icon={<ImGithub />} />
-            </Link>
-            <Link href="https://www.instagram.com/invites/contact/?i=1e8e53im3polc&utm_content=34axmit">
-              <IconButton bg="white" shadow="md" icon={<ImInstagram />} />
-            </Link>
-            <Link>
-              <IconButton bg="white" shadow="md" icon={<ImYahoo2 />} />
-            </Link>
-            <Link href="https://zm.linkedin.com/in/namy-codes-269318246">
-              <IconButton bg="white" shadow="md" icon={<ImLinkedin />} />
-            </Link>
+            <IconButton bg="white" shadow="md" icon={<ImGithub />} />
+            <IconButton bg="white" shadow="md" icon={<ImInstagram />} />
+            <IconButton bg="white" shadow="md" icon={<ImYahoo2 />} />
+            <IconButton bg="white" shadow="md" icon={<ImLinkedin />} />
           </HStack>
         </Container>
         <SimpleGrid>
@@ -106,6 +97,7 @@ export default function MobileView() {
             className={container.hero}
             py="50px"
           >
+            
             <Stack
               direction={{ base: "row", md: "row", lg: "row" }}
               overscrollBehavior="none"
