@@ -55,6 +55,10 @@ const Footer = forwardRef((props, ref) => {
     })
     const data = await response.json()
     console.log(data)
+    setName('')
+    setEmail('')
+    setMessage('')
+    setContact('')
     return data
   }
 
