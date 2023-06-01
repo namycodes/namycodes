@@ -1,80 +1,72 @@
 import {
   Box,
   Container,
-  Image,
   Heading,
-  Text,
-  Card,
-  Stack,
-  CardHeader,
-  CardBody,
-  CardFooter,
-  ListItem,
-  List,
   Divider,
   useMediaQuery,
   Flex,
+  Text,
+  Stack,
+  Tooltip,
 } from "@chakra-ui/react";
-import bg from 'public/img/skillsBg.svg'
+import bg from "public/img/skillsBg.svg";
+import Image from "next/image";
+import logo from "styles/logo.module.css";
+import { useEffect, useState } from "react";
 
 export default function Skills() {
-    const [isLagerThan680] = useMediaQuery('(min-width:680px)')
-    let direction = ''
+  const [logos, setLogos] = useState([]);
+  
+
+  useEffect(() => {
+    async function getLogos() {
+      const response = await fetch("api/logos");
+      const data = await response.json();
+      setLogos(data);
+    }
+    getLogos();
+  }, []);
+
   return (
-      <>
-          <Box bgImage={bg} bgRepeat="no-repeat" bgPosition="right" bgAttachment="inherit">
-      <Container mt={{md:'8px',sm:'11px',lg: '13px'}} mb="13px" maxW="4xl" py="20px" px="35px">
-        <Heading>skills</Heading>
-        <Divider />
-              {isLagerThan680 ? (direction = "row"): (direction = "column")}
-              
-              <Stack direction={direction} py="20px">
-            <Box>
-              <Card w={{base:'16rem',md:'22rem',lg: 'sm'}} shadow="lg">
-                <CardHeader>
-                  <Text>Web Dev</Text>
-                </CardHeader>
-
-                <CardBody>
-                  <Box>
-                    <List>
-                      <ListItem>HTML & CSS</ListItem>
-                      {/* <ListItem>Vanilla JavaScript</ListItem> */}
-                      <ListItem>TailWind CSS</ListItem>
-                      <ListItem>React JS</ListItem>
-                      <ListItem>Next JS</ListItem>
-                      <ListItem>Node JS</ListItem>
-                      <ListItem>Mongo DB</ListItem>
-                      {/* <ListItem>Django</ListItem> */}
-                    </List>
-                  </Box>
-                </CardBody>
-                <Divider />
-                <CardFooter>UI: Chakra UI</CardFooter>
-              </Card>
-            </Box>
-
-            <Box>
-              <Card w={{base:'16rem',md:'22rem',lg: 'sm'}} shadow="lg">
-                <CardHeader>
-                  <Text>Mobile Dev</Text>
-                </CardHeader>
-
-                <CardBody>
-                  <Box>
-                    <List>
-                      <ListItem>Flutter</ListItem>
-                      <ListItem>React Native</ListItem>
-                    </List>
-                  </Box>
-                </CardBody>
-                <Divider />
-                <CardFooter>other skills: C++,Python</CardFooter>
-              </Card>
-            </Box>
-          </Stack>
-              </Container>
-              </Box>
+    <>
+      
+      <Box
+        bgImage={bg}
+        bgRepeat="no-repeat"
+        bgPosition="right"
+        bgAttachment="inherit"
+      >
+        <Container
+          mt={{ md: "8px", sm: "11px", lg: "13px" }}
+          mb="13px"
+          maxW="6xl"
+          py="20px"
+          pl={{lg:"4em",sm:'3em'}}
+        >
+          <Heading>Skill Stack</Heading>
+          <Divider />
+          
+          <Box pt="2rem">
+            <Flex wrap="wrap" rowGap="1.5rem" columnGap="1.5rem">
+              {logos.map((log) => {
+                return (
+                  <>
+                    <Box key={log.id}>
+                      <Tooltip label={log.name}>
+                        <Image
+                          className={logo.lg}
+                          src={require(`public/${log.logo}`)}
+                          alt={log.name}
+                        />
+                      </Tooltip>
+                    </Box>
+                  </>
+                );
+              })}
+            </Flex>
+          </Box>
+        </Container>
+      </Box>
     </>
   );
 }
