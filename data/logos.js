@@ -49,4 +49,9 @@ export const logos = [
     logo: "formik.png",
     name: "formik",
   },
+  {
+    id: 11,
+    logo: "flutter-logo.jpg",
+    name: "Flutter",
+  },
 ];
