@@ -5,7 +5,7 @@ I'm a passionate software engineer, web developer, and app developer with a love
 
 ## STATS
 <p align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=namycodes&layout=compact&langs_count=8&theme=radical" alt="Top Languages">
+  <img  src="https://github-readme-stats.vercel.app/api/top-langs/?username=namycodes&layout=compact&langs_count=8&theme=radical" alt="Top Languages">
 
 ![My Stats](https://github-readme-stats.vercel.app/api?username=namycodes&show_icons=true&theme=radical)  <!-- Commit Streak Section -->
 ![My Stats](https://github-readme-streak-stats.herokuapp.com/?user=namycodes&show_icons=true&theme=radical)
