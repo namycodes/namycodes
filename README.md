@@ -3,17 +3,23 @@
 
 I'm a passionate software engineer, web developer, and app developer with a love for creating innovative solutions. Welcome to my GitHub profile!
 
+## Connect with Me
+
+<p align="">
+  <a href="https://www.instagram.com/your_instagram_profile">
+    <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram Badge">
+  </a>&nbsp;&nbsp;
+  
+  <a href="https://www.linkedin.com/in/namycodes">
+    <img src="https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge">
+  </a>
+</p>
+
 ## STATS
 
-<div style="display: flex;">
+| ![My Stats](https://github-readme-stats.vercel.app/api?username=namycodes&show_icons=true&theme=dark) | ![My Streak](https://github-readme-streak-stats.herokuapp.com/?user=namycodes&show_icons=true&theme=dark) | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=namycodes&layout=compact&langs_count=8&theme=dark) |
+| --- | --- | --- |
 
-![My Stats](https://github-readme-stats.vercel.app/api?username=namycodes&show_icons=true&theme=dark) 
-  
-![My Streak](https://github-readme-streak-stats.herokuapp.com/?user=namycodes&show_icons=true&theme=dark)
-  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=namycodes&layout=compact&langs_count=8&theme=dark)
-
-</div>
 
   
 ## Skills and Tools
@@ -43,11 +49,6 @@ I'm a passionate software engineer, web developer, and app developer with a love
   <img src="https://img.shields.io/badge/-EJS-lightgrey?style=for-the-badge&logo=ejs&logoColor=white" alt="EJS">
 </p>
 </p>
-
-## Connect with Me
-
-- 📷 [Instagram](https://www.instagram.com/your_instagram_profile) - ![Instagram Badge](https://img.shields.io/badge/-Instagram-%23E4405F?style=flat-square&logo=instagram&logoColor=white)
-- 💼 [LinkedIn](https://www.linkedin.com/in/namycodes) - ![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white)
 
 ## Portfolio
 
