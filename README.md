@@ -17,8 +17,11 @@ I'm a passionate software engineer, web developer, and app developer with a love
 
 ## STATS
 
-| ![My Stats](https://github-readme-stats.vercel.app/api?username=namycodes&show_icons=true&theme=dark) | ![My Streak](https://github-readme-streak-stats.herokuapp.com/?user=namycodes&show_icons=true&theme=dark) | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=namycodes&layout=compact&langs_count=8&theme=dark) |
-| --- | --- | --- |
+ ![My Stats](https://github-readme-stats.vercel.app/api?username=namycodes&show_icons=true&theme=dark)  ![My Streak](https://github-readme-streak-stats.herokuapp.com/?user=namycodes&show_icons=true&theme=dark) 
+
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=namycodes&layout=compact&langs_count=8&theme=dark)
+
 
 
   
