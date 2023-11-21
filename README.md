@@ -1,5 +1,5 @@
 
-# Hi, I'm NamyCodes! 👋
+# Holla, namycodes here! 👋
 
 I'm a passionate software engineer, web developer, and app developer with a love for creating innovative solutions. Welcome to my GitHub profile!
 
